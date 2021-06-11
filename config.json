@@ -1,0 +1,13 @@
+{
+    "debug": true,
+    "server": {
+        "port": ":3543"
+    },
+    "database":{
+        "host": "localhost",
+        "port": "3306",
+        "user": "fajrin",
+        "pswd": "pisangrebusenak",
+        "name": "subscription"
+    }
+}
