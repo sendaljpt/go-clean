@@ -1,0 +1,31 @@
+{
+	"info": {
+		"_postman_id": "ab2e8845-c3bd-44d1-8ca2-96c42ca91a0d",
+		"name": "go-clean",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "member",
+			"item": [
+				{
+					"name": "Get Member",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/member",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"member"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
