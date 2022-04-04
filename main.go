@@ -9,10 +9,10 @@ import (
 	"github.com/labstack/echo"
 	"github.com/spf13/viper"
 
-	memberHttpDelivery "github.com/sendaljpt/subscription-service/src/member/delivery/http"
-	memberHttpDeliveryMiddleware "github.com/sendaljpt/subscription-service/src/member/delivery/http/middleware"
-	memberRepository "github.com/sendaljpt/subscription-service/src/member/repository/mysql"
-	memberUsecase "github.com/sendaljpt/subscription-service/src/member/usecase"
+	memberHttpDelivery "github.com/sendaljpt/go-clean/src/member/delivery/http"
+	memberHttpDeliveryMiddleware "github.com/sendaljpt/go-clean/src/member/delivery/http/middleware"
+	memberRepository "github.com/sendaljpt/go-clean/src/member/repository/mysql"
+	memberUsecase "github.com/sendaljpt/go-clean/src/member/usecase"
 )
 
 // load config

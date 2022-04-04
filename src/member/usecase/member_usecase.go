@@ -3,7 +3,7 @@ package usecase
 import (
 	"context"
 
-	"github.com/sendaljpt/subscription-service/src/domain"
+	"github.com/sendaljpt/go-clean/src/domain"
 )
 
 type memberUsecase struct {

@@ -4,7 +4,7 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/sendaljpt/subscription-service/src/domain"
+	"github.com/sendaljpt/go-clean/src/domain"
 	"github.com/sirupsen/logrus"
 )
 

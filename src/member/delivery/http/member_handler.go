@@ -4,8 +4,8 @@ import (
 	"net/http"
 
 	"github.com/labstack/echo"
-	"github.com/sendaljpt/subscription-service/src/domain"
-	"github.com/sendaljpt/subscription-service/src/helper"
+	"github.com/sendaljpt/go-clean/src/domain"
+	"github.com/sendaljpt/go-clean/src/helper"
 	"github.com/sirupsen/logrus"
 )
 
